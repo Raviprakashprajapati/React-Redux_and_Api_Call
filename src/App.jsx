@@ -7,20 +7,20 @@ import { selectCurrentAdmin } from './reduxfeaures/adminSlice'
 
 function App() {
 
-  const user = useSelector(selectCurrentUser)
-  const admin = useSelector(selectCurrentAdmin)
-  console.log(admin)
+  // const user = useSelector(selectCurrentUser)
+  // const admin = useSelector(selectCurrentAdmin)
+  // console.log(admin)
   return (
     <>
 
     <h3>TODO</h3>
-    <InputFields/>
-    {/* <Todo/> */}
-    
-    <div className='border p-3' >
+    {/* <InputFields/>
+    <Todo/>
+
+ <div className='border p-3' >
         <h3>{user?.name}</h3>
         <h3>{user?.contact}</h3>
-    </div>
+    </div>  */}
 
 
       

@@ -22,19 +22,19 @@ const productSlice = createSlice({
 
     extraReducers:(builder)=>{
 
-        builder.addCase(fetchProduct,(state,action)=>{
-            console.log("ERROR : ",action.payload)
-            state.isError = true
-        })
+        // builder.addCase(fetchProduct,(state,action)=>{
+        //     console.log("ERROR : ",action.payload)
+        //     state.isError = true
+        // })
 
-        builder.addCase(fetchProduct.pending,(state,action)=>{
-            state.isLoading = true;
-        })
+        // builder.addCase(fetchProduct.pending,(state,action)=>{
+        //     state.isLoading = true;
+        // })
 
-        builder.addCase(fetchProduct.fulfilled,(state,action)=>{
-            state.isLoading= false;
-            state.products = action.payload
-        })
+        // builder.addCase(fetchProduct.fulfilled,(state,action)=>{
+        //     state.isLoading= false;
+        //     state.products = action.payload
+        // })
     }
 })
 
