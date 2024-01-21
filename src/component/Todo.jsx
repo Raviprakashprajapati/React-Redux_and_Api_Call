@@ -4,7 +4,7 @@ import { removeTodo } from "../reduxfeaures/todoSlice";
 
 function Todo(){
 
-    const todos = useSelector((state)=>state.todos)
+    const todos = useSelector((state)=>state.todos) || []
     const dispatch =  useDispatch()
     console.log(todos)
     function removeHandler(id){
